@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400&family=Roboto:wght@500&display=swap');
+
+body {
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.flexbox-container {
+    background: white;
+    display: flex;     
+    justify-content: center;
+    align-items: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    color: #667085; 
+    font-weight: 500;
+    flex-wrap: wrap;
+}
+
+.nome-empresa{
+    color: #3A404E;
+    padding: 0 10% 0 1%;
+}
+
+.cabecalio {
+    padding: 0 2% 0 2%;
+}
+
+.entrar{
+    padding: 0 1% 0 20%;
+}
+
+.cadastrar {
+    color: white;
+    padding: 10px 18px;
+    background: #8E2424;
+    border-radius: 8px;
+}
+
+.cadastrar:hover {
+    background: #7c1616;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.sobre-a-empresa{
+    text-align: center;
+}
+
+h1 {
+    color: #8E2424;
+    padding: 6% 0 2% 0;
+    font-size: 19px;
+    font-family: 'Roboto';
+    text-align: center;
+}
+
+h2 {
+    font-size: 48px;
+    padding: 2%;
+    font-family: 'Roboto';
+}
+
+.texto-sobre-a-empresa {
+    font-size: 20px;
+    color: #667085;
+    padding: 2% 20% 8% 20%;
+}
+
+.dados-container{
+    display: flex;
+    padding: 0 4% 8% 4%;
+}
+
+.div-dados {
+    padding: 2%;
+}
+
+ h3 {
+    color: #8E2424;
+    font-size: 60px;
+    font-family: 'Roboto';
+ 
+ }
+
+ .titulo-dados{
+    padding: 30px 0 12px 0;
+ }
+
+ .texto-dados{
+    color: #667085;
+ }
+
+ h4{
+    text-align: center;
+    color: #8E2424;
+    margin: 12px 4px 1px 45%;
+    font-size: 14px;
+    vertical-align: top;
+    width: 10%;
+    background-color: rgba(142, 36, 36, 0.1);
+    border-radius: 10px/20px;
+    font-family: 'Roboto';
+ }
+
+ h4:hover {
+    transform: scale(1.1);
+    font-size: 18px;
+ }
+
+ h5{
+    font-size: 36px;
+    text-align: center;
+    padding: 5% 0;
+    font-family: 'Roboto';
+ }
+
+ .texto-sobre-equipe{
+    font-size: 20px;
+    text-align: center;
+    color: #667085;
+    padding-bottom: 5% ;
+ }
+
+.imagem-vagas {
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.vagas{
+    margin-left: 25%;
+}
+
+.area-de-atuacao {
+    padding: 4% 0 3% 0;
+    font-size: large;
+    font-family: 'Roboto', sans-serif;
+}
+
+.titulo-vaga {
+    margin: 2% 0 3% 0;
+    border: 1px solid;
+    border-radius: 16px;
+    border-color: #c2c7d0;
+    padding: 2% 2%;
+    width: 60%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.titulo-vaga:hover {
+    border-color: #8E2424;
+    font-size: 16px;
+    border-width: 2px;
+}
+
+.informacoes {
+    margin: 3% 0 1% 0;
+    color: #667085;
+}
+
+span{
+    margin-right: 5%;
+}
+
+.conteiner-feedback{
+    margin: 0 auto;
+    background-color: rgba(195, 25, 25, 0.03);
+    width: 85%;
+    border-radius: 16px;
+    text-align: center;
+}
+
+.texto-feedback {
+    font-size: 36px;
+    line-height: 44px;
+    width: 90%;
+    margin-bottom: 2%;
+}
+
+.nome-do-colaborador{
+    font-family: 'Roboto';
+    margin-top: 1%;
+}
+
+.funcao-do-colaborador{
+    color: #667085;
+    margin-top: 1%;
+    padding-bottom: 5%;
+
+}
+
+footer{
+    text-align: center;
+    padding: 96px 0;
+    background-color: #F9FAFB;
+    margin-top: 96px;
+}
+
+.titulo-final{
+    font-size: 36px;
+}
+
+.texto-final{
+    font-size: 19px;
+    margin-bottom: 3%;
+}
+
+.input-email{
+    width: 350px;
+    height: 40px;
+    font-size: 100%;
+    border-width: 1px;
+    border-radius: 10px;
+    padding-left: 1%;
+}
+
+.input-cadastrar{
+    color: #F9FAFB;
+    width: 90px;
+    height: 44px;
+    border-radius: 10px;
+    background-color: #7c1616;
+    margin-left: 1%;
+}
+
+.input-cadastrar:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.copyright{
+    margin-top: 2%;
+    font-size: 14px;
+}
